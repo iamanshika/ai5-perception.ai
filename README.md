@@ -14,9 +14,20 @@ There is a serious predicament of class imbalance in Artificial Intelligence and
 
 ## Dataset
 
-We used the Caltech-UCSD Birds 200 (CUB-200) dataset. It is an image dataset with photos of 200 bird species (mostly North American).
+We used the [Caltech-UCSD Birds 200](http://www.vision.caltech.edu/visipedia/CUB-200.html) (CUB-200) dataset. It is an image dataset with photos of 200 bird species (mostly North American).
 
-![image and corresponding caption] (assets\cub data example.JPG)
+![ ] (cub data example.PNG)
 
 With approximately 12 thousand images and one bounding box per image for object detection, it also has 10 captions corresponding to each image.
 
+## Approach
+
+We took StackGAN as our baseline model and implemented it from scratch. A setback about StackGANs is that only a single sentence embedding is used as an input therefore there is no word-level association between the sentence and the image.
+Therefore, we researched further and switched to AttnGANs for an improved model. 
+
+
+With a novel attentional generative network, the AttnGAN can synthesize fine-grained details at different subregions of the image by paying attention to the relevant words in the natural language description. In addition, a deep attentional multimodal similarity model is proposed to compute a fine-grained image-text matching loss for training the generator.
+
+## Results and Findings
+
+The proposed AttnGAN significantly outperforms the previous state-of-the-art, boosting the best-reported inception score by 14.14% on the CUB dataset. It shows that the layered attentional GAN is able to automatically select the condition at the word level for generating different parts of the image. The experimental results show that, compared to previous state-of-the-art approaches, the AttnGAN is more effective for generating complex scenes due to its novel attention mechanism that catches fine-grained word level and sub-region level information in text-to-image generation.
