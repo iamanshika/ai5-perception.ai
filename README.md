@@ -24,12 +24,12 @@ With approximately 12 thousand images and one bounding box per image for object 
 
 ## Approach
 
-We took **StackGAN** as our `baseline model` and implemented it from scratch. 
+We took **StackGAN** as our `baseline model` and implemented it from scratch. Read paper [here](https://arxiv.org/pdf/1612.03242v1.pdf).
 
 ![](assets/StackGAN.JPG)
 
 A setback about StackGANs is that only a single sentence embedding is used as an input therefore there is no word-level association between the sentence and the image.
-Therefore, we researched further and switched to **AttnGAN** for an improved model. 
+Therefore, we researched further and switched to **AttnGAN** for an improved model. Read paper [here](https://arxiv.org/pdf/1711.10485.pdf).
 
 ![](assets/project_working.JPG)
 
