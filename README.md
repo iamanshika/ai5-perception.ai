@@ -46,11 +46,11 @@ The user can enter the description of a bird in the text box, that the user want
 
 Here is an example:
 
-![](assets\Demo-1.1.JPG)
+![](assets/Demo-1.1.JPG)
 
 The user inputs a bird description, and hits the generate button.
 
-![](assets\Demo-1.2.JPG)
+![](assets/Demo-1.2.JPG)
 
 Voila! Our model generates the desired image.
 
