@@ -1,6 +1,6 @@
 # Perception.AI
 
-Perception.AI is a text-to-image project, in which Attention GAN has been implemented. It takes in image caption as an input, and the GAN model generates a corresponding image. This is a collaborative project by [Anshika Gupta](https://github.com/iamanshika), [HarshVardhan Goyal](https://github.com/HarshVardhanGoyal), [Meghana Sarikonda](https://github.com/meghanasarikonda), and [Vishnu M](https://github.com/vishnu701).
+Perception.AI is a text-to-image project, in which Stac GAN has been implemented from scratch. It takes in image caption as an input, and the GAN model generates a corresponding image. This is a collaborative project by [Anshika Gupta](https://github.com/iamanshika), [HarshVardhan Goyal](https://github.com/HarshVardhanGoyal), [Meghana Sarikonda](https://github.com/meghanasarikonda), and [Vishnu M](https://github.com/vishnu701).
 
 Link to medium article: https://medium.com/@Anshika-Gupta/perception-ai-9630359e42dd
 
